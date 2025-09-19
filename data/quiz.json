@@ -1,12 +1,12 @@
 [
   {
-    "question": "パスワードはどのくらい安全にすべき？",
-    "options": ["短くて簡単", "長くて複雑", "同じものを使いまわす"],
-    "answer": 1
+    "question": "SQLインジェクションとは何ですか？",
+    "options": ["ウェブ攻撃手法", "暗号化方式", "データベースソフト", "OSの種類"],
+    "answer": "ウェブ攻撃手法"
   },
   {
-    "question": "HTTPS は何の略？",
-    "options": ["HyperText Transfer Protocol Secure", "High Tech Transfer System", "Hyper Transfer Protocol Standard"],
-    "answer": 0
+    "question": "XSS攻撃の正式名称は？",
+    "options": ["Cross-Site Scripting", "Cross Server Script", "XML Site Security", "Xtreme Security Scan"],
+    "answer": "Cross-Site Scripting"
   }
 ]
