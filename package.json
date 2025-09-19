@@ -2,12 +2,11 @@
   "name": "my-security-quiz",
   "version": "1.0.0",
   "homepage": "https://あなたのGitHubユーザー名.github.io/my-security-quiz",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": {
     "next": "14.2.3",
     "react": "18.2.0",
