@@ -1,9 +1,10 @@
-import './globals.css'
+// app/layout.jsx
+import './globals.css';
 
 export const metadata = {
-  title: 'セキュリティクイズ',
-  description: 'クイズで学べるセキュリティ学習Bot',
-}
+  title: 'My Security Quiz',
+  description: 'セキュリティクイズアプリ',
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -22,5 +23,5 @@ export default function RootLayout({ children }) {
         </div>
       </body>
     </html>
-  )
+  );
 }
