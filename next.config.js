@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',       // 静的HTML生成
-  images: { unoptimized: true },
-  basePath: '/my-security-quiz',
-  assetPrefix: '/my-security-quiz/',
-};
+  reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
