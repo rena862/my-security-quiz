@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ← これで静的HTMLを出力
+  output: 'export', // ← 静的サイト用
   images: {
-    unoptimized: true, // GitHub Pagesで画像を使うなら必要
+    unoptimized: true, // GitHub Pages対応
   },
-  basePath: process.env.GITHUB_PAGES ? '/my-security-quiz' : '',
-  assetPrefix: process.env.GITHUB_PAGES ? '/my-security-quiz/' : '',
+  basePath: '/my-security-quiz', // ← リポジトリ名に合わせる
+  assetPrefix: '/my-security-quiz/', // ← リポジトリ名に合わせる
 }
 
 module.exports = nextConfig
