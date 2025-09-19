@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 全体のベーススタイル */
+/* 全体に適用する共通スタイル */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
   background-color: #f9fafb;
+  color: #111827;
 }
