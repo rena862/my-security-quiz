@@ -1,7 +1,7 @@
 {
   "name": "my-security-quiz",
   "version": "1.0.0",
-  "homepage": "https://rena862.github.io/my-security-quiz",  // ← GitHubユーザー名を正しく
+  "homepage": "https://rena862.github.io/my-security-quiz",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
