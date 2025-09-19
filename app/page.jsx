@@ -3,12 +3,11 @@ import QuizCard from "../components/QuizCard";
 
 export default function Home() {
   return (
-    <main className="p-6 space-y-6 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold">セキュリティクイズ</h1>
+    <div className="space-y-6">
+      <h2 className="text-2xl font-bold mb-4">クイズに挑戦しよう！</h2>
       {quizData.map((q, i) => (
         <QuizCard key={i} {...q} />
       ))}
-    </main>
+    </div>
   );
 }
-
